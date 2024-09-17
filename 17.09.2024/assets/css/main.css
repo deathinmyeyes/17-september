@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Black.ttf);
+  font-weight: 900;
+}
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1060px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.main {
+  background-image: url(../img/duotone.png);
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+}
+.main__text {
+  padding-top: 232px;
+  color: #fff;
+  font-weight: 900px;
+  font-size: 38px;
+  width: 583px;
+}
+.main__button {
+  margin-top: 60px;
+}
+.main__button a {
+  background-color: #F2726F;
+  padding: 12px 34px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.about__wrap {
+  height: 700px;
+  background-color: #5D62B5;
+  border-radius: 47px;
+  margin-top: -80px;
+  position: relative;
+}
+.about__dots {
+  position: absolute;
+  top: -110px;
+  right: -70px;
+}
+.about__dog {
+  border-radius: 40px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -120px;
+  z-index: 1;
+}
+.about__blob {
+  position: absolute;
+  bottom: -150px;
+}
+.about__span {
+  color: #fff;
+}
+.about__subtitle {
+  display: flex;
+  padding-top: 100px;
+  padding-left: 87px;
+  gap: 10px;
+}
+.about__subtitle h4 {
+  margin-top: 5px;
+  font-size: 12;
+  color: #fff;
+  text-transform: uppercase;
+}
+.about__title {
+  padding-top: 33px;
+  padding-left: 87px;
+  width: 583px;
+}
+.about__title h1 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 900;
+}
+.about__text {
+  padding-left: 87px;
+  padding-top: 36px;
+  width: 846px;
+}
+.about__text p {
+  color: #F5F5F5;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.promise {
+  margin-top: 230px;
+}
+.promise__subtitle {
+  display: flex;
+  gap: 20px;
+}
+.promise__subtitle h4 {
+  color: #5D62B5;
+  padding-top: 5px;
+}
+.promise__title {
+  margin-top: 33px;
+}
+.promise__title h1 {
+  color: #000;
+  font-size: 36px;
+  font-weight: 900;
+}
+.promise__card-block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 68px;
+}
+.promise__card {
+  display: flex;
+}
+.promise__card img {
+  margin-top: -70px;
+  padding-right: 5px;
+}
+.promise__card-text {
+  display: flex;
+  flex-direction: column;
+}
+.promise__card-text h2 {
+  color: #F2726F;
+  font-size: 19px;
+  font-weight: 900;
+}
+.promise__card-text p {
+  color: #4B4B4B;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+  width: 235px;
+}
+
+.nemo {
+  margin-top: 122px;
+  background-color: #29C3BE;
+  height: 500px;
+}
+.nemo__wrap {
+  position: relative;
+}
+.nemo__blob {
+  position: absolute;
+  left: -208px;
+  z-index: 1;
+}
+.nemo__dots {
+  position: absolute;
+  left: -208px;
+  top: 122px;
+  z-index: 0;
+}
+.nemo__dog {
+  position: absolute;
+  left: -205px;
+  top: 44px;
+  z-index: 2;
+}
+.nemo__line {
+  position: absolute;
+  left: 651px;
+}
+.nemo__ball {
+  position: absolute;
+  z-index: 3;
+  left: 1165px;
+  top: 113px;
+}
+.nemo__text {
+  position: absolute;
+  z-index: 5;
+  width: 411px;
+  margin-top: 112px;
+  margin-left: 611px;
+}
+.nemo__text h1 {
+  color: #fff;
+  font-size: 36px;
+}
+.nemo__button {
+  position: absolute;
+  z-index: 4;
+  margin-left: 610px;
+  margin-top: 295px;
+}
+.nemo__button a {
+  background-color: #F2726F;
+  padding: 12px 34px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 12px;
+}
